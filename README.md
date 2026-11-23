@@ -71,8 +71,6 @@ Ignored local outputs: `data/` (archive, workbook, clean Parquet and audit); `ar
 
 ## Attribution and limitations
 
-Based on [mervees/E-commerce-Data-Analysis](https://github.com/mervees/E-commerce-Data-Analysis), MIT, Copyright (c) 2026 Merve Çavaş, commit `8b12a5fc1fc9888b152a4b55edb389d9931d5704`. Original source is preserved under `upstream/`; see [ATTRIBUTION.md](ATTRIBUTION.md) for reused and added modules. Upstream published metrics are not reused as our evaluation results.
-
 Dataset citation: Chen, D. (2012). *Online Retail II* [Dataset]. UCI Machine Learning Repository. [doi:10.24432/C5CG6D](https://doi.org/10.24432/C5CG6D). Dataset licensed CC BY 4.0; source code MIT.
 
 Historical, single-retailer data includes wholesale purchases and strong seasonality. Exclusions change the population; late-year evaluation is not representative of every season. Only one customer holdout and four weekly forecast folds are used. Uncalibrated model scores, extreme spending, repeated customers and distribution drift limit generalization. Models are demonstrations, not validated operational decision systems. Baselines can outperform learned models; measured results are displayed without assuming improvement. See `reports/verification.md` for actual runs and results.
